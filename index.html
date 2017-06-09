@@ -8,21 +8,41 @@
 	<title>Hannes Landström</title>
 </head>
 <body>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#btnrow a").click(function(){
+				$(this).addClass("active");
+				$("a").not(this).removeClass("active");
+			});
+		});
+	</script>
+
+
 	<div class="jumbotron text-center">
 		<h1>Hannes Landström</h1>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-2"><a href="index.html" class="btn btn-primary btn-block active">Profil</a></div>
-				<div class="col-md-2"><a href="project1.html" class="btn btn-primary btn-block">Länk 2</a></div>
-				<div class="col-md-2"><a href="project2.html" class="btn btn-primary btn-block">Länk 3</a></div>
-				<div class="col-md-3"></div>
+			<div class="row" id="btnrow">
+				<div class="col-md-2 col-md-offset-3"><a href="#about" class="btn btn-primary btn-block active">Profil</a></div>
+				<div class="col-md-2"><a href="#portfolio" class="btn btn-primary btn-block">Portfolio</a></div>
+				<div class="col-md-2 col-md-offset-0"><a href="#contact" class="btn btn-primary btn-block">Kontakt</a></div>
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="well">
-			<!-- Content here -->
+	<div id="content">
+		<div class="container" id="about">
+			<u><h2><center>Om Mig</center></h2></u>
+			<p>Hej!<br>
+			Jag heter Hannes Landström och jag håller på att lära mig mer om webbutveckling och design.</p>
+		</div>
+		<div class="container" id="portfolio">
+			<u><h2><center>Portfolio</center></h2></u>
+			<p>Det är lite tomt här just nu. <br> Kom tillbaks senare så kanske det finns lite saker.</p>
+		</div>
+		<div class="container" id="contact">
+			<u><h2><center>Kontakt</center></h2></u>
+			<!-- Kontaktuppgifter här -->
 		</div>
 	</div>
 </body>
