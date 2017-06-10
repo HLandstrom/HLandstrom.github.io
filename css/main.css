@@ -5,3 +5,10 @@
 body {
 	background-color: #B8CFD6;
 }
+#content #about p {
+	float:left;
+}
+#pimg {
+	border-radius: 50%;
+	float: right;
+}
