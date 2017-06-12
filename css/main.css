@@ -1,14 +1,23 @@
-#content .container {
-	border-bottom: 1px solid grey;
-	margin-bottom: 30px;
+.container {
+	border-left: 5px inset black;
+	border-right: 5px outset black;
+	background-color: White;
+}
+#contact {
+	border-bottom: 5px outset black;
 }
 body {
 	background-color: #B8CFD6;
 }
-#content #about p {
+#about p {
 	float:left;
 }
 #pimg {
 	border-radius: 50%;
 	float: right;
+	margin-bottom: 5px;
+}
+hr {
+	border-style: solid;
+	border-color: grey;
 }
