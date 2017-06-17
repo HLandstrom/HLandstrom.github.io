@@ -9,7 +9,7 @@
 	<title>Hannes Landström</title>
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
 	<div class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -22,27 +22,36 @@
     	</ul>
 		</div>
 	</div>
-</div>
+
 
 	<div id="content">
 		<div class="container" id="about">
 			<h2><u><center>Om Mig</center></u></h2>
-			<p>Hej!<br>
-			Jag heter Hannes Landström och jag håller på att lära mig mer om webbutveckling och design.</p>
-			<img id="pimg" src="media/portrait.jpg">
+			<div class="col-md-9">
+				<p>Hej!<br>
+				Jag heter Hannes Landström och jag håller på att lära mig mer om webbutveckling och design.</p>
+			</div>
+			<div class="col-md-3">
+				<img id="pimg" src="media/portrait.jpg">
+			</div>
 		</div>
 
 		<div class="container" id="portfolio">
 			<hr>
 			<h2><u><center>Portfolio</center></u></h2>
-			<p>Det är lite tomt här just nu. <br> Kom tillbaks senare så kanske det finns lite saker.</p>
+			<div class="col-md-12">
+				<p>Det är lite tomt här just nu. <br> Kom tillbaks senare så kanske det finns lite saker.</p>
+			</div>
 		</div>
 
 		<div class="container" id="contact">
 			<hr>
 			<h2><u><center>Kontakt</center></u></h2>
-			<!-- Kontaktuppgifter här -->
+			<div class="col-md-12">
+				<!-- Kontaktuppgifter här -->
+			</div>
 		</div>
 	</div>
+</div>
 </body>
 </html>

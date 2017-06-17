@@ -1,20 +1,19 @@
 .container {
-	border-left: 5px inset black;
-	border-right: 5px outset black;
+	border-left: 3px inset gray;
+	border-right: 3px outset gray;
 	background-color: White;
 }
+.navbar {
+	margin-bottom: 0px;
+}
 #contact {
-	border-bottom: 5px outset black;
+	border-bottom: 3px outset gray;
 }
 body {
 	background-color: #B8CFD6;
 }
-#about p {
-	float:left;
-}
 #pimg {
 	border-radius: 50%;
-	float: right;
 	margin-bottom: 5px;
 }
 hr {
